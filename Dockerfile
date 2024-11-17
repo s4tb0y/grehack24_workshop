@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
 python3-minimal \
 python3-pip \
 binwalk \
+squashfs-tools \
 less \
 binutils \
 vim \
