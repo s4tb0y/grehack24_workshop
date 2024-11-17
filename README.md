@@ -42,3 +42,7 @@ You can find inside [depthcharge_scripts](./depthcharge_scripts) directory two e
 ## Workshop presentation
 
 [WORKSHOP.md](./WORKSHOP.md)
+
+## Essentials tools to build your lab
+
+[SHOPPING_LIST.md](./SHOPPING_LIST.md)
