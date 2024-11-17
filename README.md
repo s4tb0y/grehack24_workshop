@@ -12,6 +12,10 @@ clone repository and execute command inside directory
 
 `docker run -it --rm workshop_env`
 
+You can also link current directory for example to keep firmware image that you are dumping with `-v` flag:
+
+`docker run -it --rm -v ./:/workspace workshop_env`
+
 ## Use case: Dumping firmware of the GL-MT300N-V2 Mango with flashreader CH341A
 
 If you want to run docker with flash reader for example:
