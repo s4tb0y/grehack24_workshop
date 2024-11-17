@@ -28,3 +28,7 @@ Bus 003 Device 008: ID 1a86:5512 QinHeng Electronics CH341 in EPP/MEM/I2C mode, 
 
 root@92414891bddb:/workspace# flashrom -V -p ch341a_spi -c "W25Q128.V" -r dump.bin
 ```
+
+## Depthcharge scripts for GL-MT300N-V2 Mango Target
+
+You can find inside depthcharge_script directory two example of automated tasks regarding the device GL-MT300N-V2 Mango.
