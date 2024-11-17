@@ -1,4 +1,6 @@
-# 1. Hardware Reconnaissance
+# Introduction to Hardware Hacking: GL-MT300N-V2 Mango
+
+## 1. Hardware Reconnaissance
 
 - Locate datasheets for various components and understand their roles
 - Use a multimeter to validate specific connections
@@ -12,7 +14,7 @@
 ### Datasheets:
 - [Mediatek MCU](https://files.seeedstudio.com/products/114992470/MT7628_datasheet.pdf)
 - [Winbond Flash](https://www.mouser.com/datasheet/2/949/w25q128jv_revf_03272018_plus-1489608.pdf)
-# 2. Firmware Dump
+## 2. Firmware Dump
 
 - Quick explanation of how the flash communicates with the MCU via SPI
 - Tutorial on using flashrom with the ch341a
@@ -48,7 +50,7 @@ Reading flash...
 ```
 #### Binwalk and Strings/Grep
 ![plot](./images/Pasted%20image%2020241113161248.png)
-# 3. Serial connection: UART
+## 3. Serial connection: UART
 
 - Brief explanation of UART, its purpose for design and debugging
 - Tutorial on using USB to TTL and miniterm
@@ -61,7 +63,7 @@ Reading flash...
 #### Flash partitions
 ![plot](./images/Pasted%20image%2020241113160007.png)
 
-# 4. U-Boot
+## 4. U-Boot
 
 - Interrupting the U-Boot autoboot sequence
 - Description of available commands (`?` || `help`)
@@ -126,7 +128,7 @@ read len: 120
 >>> r
 'bootcmd=bootm 0xbc050000\x00bootdelay=5\x00baudrate=115200\x00ethaddr="00:AA:BB:CC:DD:10"\x00ipaddr=192.168.1.1\x00serverip=192.168.1.2'
 ```
-# 5. Depthcharge
+## 5. Depthcharge
 
 - Overview of Depthcharge’s utility for automating tasks, especially when the U-Boot environment is non-persistent: https://depthcharge.readthedocs.io/en/latest/introduction.html
 - Small demo scripts including:
@@ -140,7 +142,7 @@ read len: 120
 #### Dump FW with Memory Dump
 ![plot](./images/Pasted%20image%2020241113155026.png)
 
-# 6. Fast Firmware Analysis
+## 6. Fast Firmware Analysis
 
 - Extracting different parts of the firmware with `binwalk` and `dd`
 - Exploring extracted FS
