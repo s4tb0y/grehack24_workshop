@@ -5,9 +5,9 @@
 - Identify potential pins/ports dedicated to debug protocols
 
 ### Picture GL-MT300N-V2 Mango: Back
-![[glinet_back.jpg]]
+![plot](./images/glinet_back.jpg)
 ### Picture GL-MT300N-V2 Mango: Front
-![[glinet_front.jpg]]
+![plot](./images/glinet_front.jpg)
 
 ### Datasheets:
 - [Mediatek MCU](https://files.seeedstudio.com/products/114992470/MT7628_datasheet.pdf)
@@ -47,7 +47,7 @@ clone the contents of this chip (see man page for details).
 Reading flash... 
 ```
 #### Binwalk and Strings/Grep
-![[Pasted image 20241113161248.png]]
+![plot](./images/Pasted%20image%2020241113161248.png)
 # 3. Serial connection: UART
 
 - Brief explanation of UART, its purpose for design and debugging
@@ -57,9 +57,9 @@ Reading flash...
 ### Analysis of u-boot logs
 
 #### U-boot version, flash ID/Size, autoboot stopkey, boot informations
-![[Pasted image 20241113155724.png]]
+![plot](./images/Pasted%20image%2020241113155724.png)
 #### Flash partitions
-![[Pasted image 20241113160007.png]]
+![plot](./images/Pasted%20image%2020241113160007.png)
 
 # 4. U-Boot
 
@@ -136,9 +136,9 @@ read len: 120
 	- Using `md` to automate firmware extraction, for example
 
 #### Change bootdelay varenv value
-![[Pasted image 20241113145630.png]]
+![plot](./images/Pasted%20image%2020241113145630.png)
 #### Dump FW with Memory Dump
-![[Pasted image 20241113155026.png]]
+![plot](./images/Pasted%20image%2020241113155026.png)
 
 # 6. Fast Firmware Analysis
 
@@ -235,6 +235,6 @@ DECIMAL       HEXADECIMAL     ENTROPY
 
 ```
 ##### Entropy plot
-![[Entropy.png]]
+![plot](./images/Entropy.png)
 
 
