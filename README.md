@@ -12,6 +12,8 @@ clone repository and execute command inside directory
 
 `docker run -it --rm workshop_env`
 
+## Use case: Dumping firmware of the GL-MT300N-V2 Mango with flashreader CH341A
+
 If you want to run docker with flash reader for example:
 
 ```
