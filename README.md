@@ -1,4 +1,4 @@
-# grehack24_workshop
+# Grehack 2024 Workshop
 
 ## Install docker binary
 
@@ -33,4 +33,8 @@ root@92414891bddb:/workspace# flashrom -V -p ch341a_spi -c "W25Q128.V" -r dump.b
 
 ## Depthcharge scripts for GL-MT300N-V2 Mango Target
 
-You can find inside depthcharge_script directory two examples of automated tasks regarding the device GL-MT300N-V2 Mango.
+You can find inside [depthcharge_scripts](./depthcharge_scripts) directory two examples of automated tasks regarding the device GL-MT300N-V2 Mango.
+
+## Workshop presentation
+
+[WORKSHOP.md](./WORKSHOP.md)
