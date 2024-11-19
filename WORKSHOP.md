@@ -16,6 +16,8 @@
 - [Winbond Flash](https://www.mouser.com/datasheet/2/949/w25q128jv_revf_03272018_plus-1489608.pdf)
 ## 2. Firmware Dump
 
+![plot](./images/20241119_122941.jpg)
+
 - Quick explanation of how the flash communicates with the MCU via SPI
 - Tutorial on using flashrom with the ch341a
 - Firmware dumping
@@ -51,6 +53,8 @@ Reading flash...
 #### Binwalk and Strings/Grep
 ![plot](./images/Pasted%20image%2020241113161248.png)
 ## 3. Serial connection: UART
+
+![plot](./images/20241119_123145.jpg)
 
 - Brief explanation of UART, its purpose for design and debugging
 - Tutorial on using USB to TTL and miniterm
